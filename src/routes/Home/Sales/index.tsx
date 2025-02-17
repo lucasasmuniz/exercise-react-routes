@@ -1,18 +1,15 @@
-import Header from "../../../components/Header";
+import { Link } from "react-router-dom";
 import MainCard from "../../../components/MainCard";
 import RedButton from "../../../components/RedButton";
 
 export default function Sales() {
 
-  return (
-    <>
-      <Header />
-      <main>
-        <section id="home-section" className="container">
-          <MainCard name={"Página de promoção"} />
-          <RedButton name="Quero participar"/>
-        </section>
-      </main>
-    </>
-  )
+    return (
+        <>
+            <MainCard name={"Página de promoção"} />
+            <Link to="/registration">
+                <RedButton name="Quero participar" />
+            </Link>
+        </>
+    )
 }
