@@ -6,10 +6,14 @@ export default function MainPage() {
 
   return (
     <>
-        <MainCard name={"Página inicial"} />
-        <Link to="/sales">
+      <main>
+        <section id="main-page-section" className="container">
+          <MainCard name={"Página inicial"} />
+          <Link to="/sales">
             <RedButton name="Quero participar" />
-        </Link>
+          </Link>
+        </section>
+      </main>
     </>
   )
 }
