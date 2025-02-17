@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import "./styles.css";
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <header>
-            <nav className="container">
-                <Link to="/"><h1>MeuSite</h1></Link>
-            </nav>
+            <div className="container">
+                <Link to="/">
+                    <h1 className="site-name">MeuSite</h1>                
+                </Link>
+            </div>
         </header>
     );
 }

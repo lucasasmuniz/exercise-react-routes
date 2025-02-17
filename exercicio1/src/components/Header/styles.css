@@ -1,13 +1,11 @@
-
-header{
-    background-color: #FF2323;
+header {
     height: 80px;
+    background-color: #FF2323;
+    color: #FFF;
     display: flex;
     align-items: center;
-    padding: 0 30px;
 }
 
-nav h1{
-    color: #FFF;
+.site-name {
     font-size: 20px;
 }

@@ -1,5 +1,5 @@
 
-.header-default{
+header{
     background-color: #FF2323;
     height: 80px;
     display: flex;
@@ -7,8 +7,7 @@
     padding: 0 30px;
 }
 
-.nav-default h1{
+nav h1{
     color: #FFF;
     font-size: 20px;
-    display: flex;
 }

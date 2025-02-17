@@ -1,9 +1,9 @@
-.header-registration{
+.title{
     text-align: center;
-    padding: 38px 0 17px 0;
+    padding: 8px 0 47px 0;
 }
 
-.nav-registration h1{
+.title h1{
     color: #6E6E6E;
     font-size: 32px;
 }

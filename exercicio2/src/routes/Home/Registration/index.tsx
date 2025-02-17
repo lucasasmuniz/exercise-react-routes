@@ -7,13 +7,11 @@ export default function Registration() {
 
     return (
         <>
-            <header className="header-registration">
-                <nav className="nav-registration">
-                    <h1>Faça sua inscrição!</h1>
-                </nav>
-            </header>
             <main>
                 <section id="registration-section" className="container">
+                    <div className="title">
+                        <h1>Faça sua inscrição!</h1>
+                    </div>
                     <MainCard name={"Página de inscrição"} />
                     <Link to="/sales">
                         <RedButton name="Quero participar" />
