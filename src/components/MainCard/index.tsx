@@ -1,13 +1,13 @@
 import "./styles.css"
 
 type Props = {
-    name : String;
+    name : string;
 }
 
 export default function MainCard({name}: Props) {
 
     return (
-        <div className="container card">
+        <div className="card">
             <h2>{name}</h2>
         </div>
     );
